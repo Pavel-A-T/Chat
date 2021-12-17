@@ -5,7 +5,7 @@ const chat = document.getElementsByClassName('chat-input')[0];
 const area = document.getElementsByClassName('area')[0];
 const openChat = document.getElementsByClassName('chat')[0];
 const side = document.getElementsByClassName('side')[0];
-let ws = new WebSocket('ws://chat-dz.herokuapp.com/');
+let ws = new WebSocket('wss://chat-dz.herokuapp.com/');
 let userName;
 const names = [];
 
